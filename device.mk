@@ -18,7 +18,8 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
-PRODUCT_PACKAGES += bromite-webview
+# Momentarily disabling bromite system webview
+# PRODUCT_PACKAGES += bromite-webview
 
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay
