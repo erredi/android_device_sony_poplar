@@ -18,6 +18,9 @@ PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
 PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
+# Temporarily added
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
 # Update with mulch system webview
 PRODUCT_PACKAGES += mulch-webview
 
