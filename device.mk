@@ -2,6 +2,8 @@
 $(call inherit-product, device/sony/yoshino-common/platform.mk)
 ### PROPRIETARY VENDOR FILES
 $(call inherit-product, vendor/sony/poplar/poplar-vendor.mk)
+### CAMERA stock
+$(call inherit-product-if-exists, vendor/sony/camera/sony-camera.mk)
 
 ifeq ($(WITH_FDROID),true)
 $(call inherit-product, vendor/fdroid/fdroid-vendor.mk)
